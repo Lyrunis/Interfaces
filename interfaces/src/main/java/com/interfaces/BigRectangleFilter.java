@@ -13,7 +13,7 @@ public class BigRectangleFilter implements Filter {
         return false;
     }
 
-    // Helper method to calculate the perimeter of a rectangle
+    // calculate the perimeter of a rectangle
     private int calculatePerimeter(Rectangle rect) {
         return 2 * (rect.width + rect.height);
     }

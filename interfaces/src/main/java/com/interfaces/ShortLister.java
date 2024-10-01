@@ -29,7 +29,6 @@ public class ShortLister {
     }
 
     public static void main(String[] args) {
-        // Let the user pick a file with JFileChooser
         JFileChooser chooser = new JFileChooser();
         int result = chooser.showOpenDialog(null);
         if (result != JFileChooser.APPROVE_OPTION) {
